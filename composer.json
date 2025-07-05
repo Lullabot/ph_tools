@@ -1,0 +1,13 @@
+{
+    "name": "lullabot/ph_tools",
+    "description": "AProvides utility services and helper classes for Placeholder projects, including robust entity extraction from route contexts.",
+    "type": "drupal-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Mateu Aguilo Bosch",
+            "email": "mateu@mateuaguilo.com"
+        }
+    ],
+    "require": {}
+}
