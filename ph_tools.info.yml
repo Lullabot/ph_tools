@@ -1,0 +1,7 @@
+name: Placeholder Tools
+type: module
+description: 'Provides utility services and helper classes for Placeholder projects, including robust entity extraction from route contexts.'
+core_version_requirement: ^10 || ^11
+package: Placeholder
+dependencies:
+  - drupal:node
