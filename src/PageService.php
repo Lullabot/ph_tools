@@ -11,7 +11,6 @@ use Drupal\Core\Entity\EntityRepositoryInterface;
 use Drupal\Core\Entity\EntityStorageException;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Entity\RevisionableStorageInterface;
-use Drupal\Core\Routing\CurrentRouteMatch;
 use Drupal\Core\Routing\RouteMatchInterface;
 use Drupal\node\NodeInterface;
 use Drupal\ph_tools\Exceptions\InvalidContextException;
@@ -32,7 +31,7 @@ class PageService {
    *   The entity repository.
    */
   public function __construct(
-    private CurrentRouteMatch $currentRouteMatch,
+    private RouteMatchInterface $currentRouteMatch,
     private EntityTypeManagerInterface $entityTypeManager,
     private EntityRepositoryInterface $entityRepository,
   ) {}
